@@ -5,6 +5,7 @@ class Song
   
   def self.genres
     @@genres.uniq
+  end
   
   def self.count
     @@count
